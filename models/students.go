@@ -12,5 +12,5 @@ type Student struct {
 	endDate time.Time
 
 	Tenant Tenant `gorm:"foreignKey:TenantID;references:ID"`
-	Company Company `gorm:"foreignKey:CompanyID;references:ID"`
+	Companie Companie `gorm:"foreignKey:CompanyID;references:ID"`
 }

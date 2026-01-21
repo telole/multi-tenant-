@@ -2,7 +2,7 @@ package models
 
 import "time"
 
-type Company struct { 
+type Companie struct { 
 	ID uint `gorm:"primarykey"`
 	TenantID string `gorm:"type:uuid;not null"`
 	Name string 

@@ -1,7 +1,7 @@
 package models
 
 
-type Permisson struct {
+type Permission struct {
 	ID uint `gorm:"primarykey"`
 	Code string `gorm:"size:100;not null;unique"`
 	Description string
