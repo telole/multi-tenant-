@@ -1,0 +1,6 @@
+
+## Tech Stack
+
+- Go (Echo)
+- GORM (ORM)
+- PostgreSQL (UUID, relational schema)
