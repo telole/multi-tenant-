@@ -6,7 +6,7 @@ type Ticket struct {
 	id uint `gorm:"primarykey"`
 	TenantID string `gorm:"type:uuid;not null"`
 	UserID uint `gorm:"not null"`
-	title string
+	Title string
 	Description string
 	Status string
 	CreatedAt time.Time
