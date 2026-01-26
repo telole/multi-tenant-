@@ -42,3 +42,5 @@ func InitRoutes(e *echo.Echo, db *gorm.DB) {
 	superAdmin.Use(middleware.AuthMiddleware)
 	superAdmin.Use(middleware.SuperAdminMiddleware)
 }
+
+//i just want to pull req
