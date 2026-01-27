@@ -3,7 +3,7 @@ package models
 import "time"
 
 type Ticket struct { 
-	id uint `gorm:"primarykey"`
+	ID uint `gorm:"primarykey"`
 	TenantID string `gorm:"type:uuid;not null"`
 	UserID uint `gorm:"not null"`
 	Title string

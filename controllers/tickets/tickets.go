@@ -12,7 +12,6 @@ type TicketController struct {
 	DB *gorm.DB
 }
 
-// CreateTicket - Semua user bisa create ticket
 func (t *TicketController) CreateTicket(c echo.Context) error {
 	req := new(request.CreateTicketRequest)
 	if err := c.Bind(req); err != nil {
